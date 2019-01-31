@@ -1,5 +1,5 @@
 
-body{background:url(./images/pic.jpg) fixed; font-family:Arial}
+body{background:url(./images/pic.jpg) fixed; font-family:Sofia}
 .wrapper
 {
 height:250px;
@@ -10,10 +10,67 @@ margin-top:20px;
 border-top-left-radius:10px;
 border-top-right-radius:10px;
 }
-.logo-bar{height:50px; }
+.logo-bar{height:50px; color:green; font-size:30px;  margin-top:30px  margin:0 auto; padding-top:40px; }
+.menu-bar{height:40px; width:980px; margin:0 auto; background-color:green;}
+.menu-bar ul{cellpadding:20px;  margin:0 auto; padding-top:10px; padding-left:20px;}
+.menu-bar ul li{ display:inline;margin:0 auto;}
+.menu-bar ul li a{color:#fff; font-size:20px; text-decoration:none; padding:0px 10px 0px 15px; }
+.menu-bar ul li:hover a{ color:#33CC99; font-size:150%; }
+.temple {height:500px;width:980px; margin:0 auto;  font-size:20px ; color:green ; background:rgba(255,255,255,0.8); }
 
-.temple {height:auto;width:980px;margin:0 auto; background:rgba(255,255,255,0.8); }
-.bottom {height:50px; width:980px; margin:0 auto; background-color:green; margin-bottom:20px; font-size:13px;border-bottom-left-radius:10px;
+.leftbody {float:left; width:450px; padding-left:20px; }
+.leftbody img{ padding-left:10px; padding-top:10px; }
+.rightbody {float:right; width:450px; height:200px; padding-top:10px;}
+
+.bottom {height:40px; width:980px; margin:0 auto; background-color:green; margin-bottom:20px; font-size:13px;border-bottom-left-radius:10px;
 border-bottom-right-radius:10px;}
+
+.w3-center {
+    text-align: center!important;
+}
+
+.para {
+	
+    border: solid 1px green;
+    padding: 5px;
+	color:green;
+   }
+
+.mySlides
+{
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+   
+}
 
 }
